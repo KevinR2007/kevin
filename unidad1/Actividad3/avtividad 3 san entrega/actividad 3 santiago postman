@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "8b11cfad-b6fe-4d1a-bb3d-856e25e65d5b",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48924315",
+		"_collection_link": "https://sufxjz-1661551.postman.co/workspace/Santiago-Martinez-Londo%25C3%25B1o's-Wor~ca8a2706-8553-4357-87ea-1a8801bdea0b/collection/48924315-8b11cfad-b6fe-4d1a-bb3d-856e25e65d5b?action=share&source=collection_link&creator=48924315"
+	},
+	"item": [
+		{
+			"name": "Traer todo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/balones/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"balones",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Traer uno",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/balones/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"balones",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Guardar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"deporte\": \"tennis\",\r\n    \"marca\": \"wilaon\",\r\n    \"diametro\": \"77.00\",\r\n    \"fecha_fabricacion\": \"2025-10-14\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/balones/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"balones",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Borrar",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/balones/1/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"balones",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
