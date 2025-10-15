@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "83f81ad2-d607-40ef-acef-9e61c656a4b4",
+		"name": "actividad 3 ke",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "48924287",
+		"_collection_link": "https://kr0127538-4100551.postman.co/workspace/N.M.0.-Tibu-YT's-Workspace~342d9d44-d03e-4f40-8355-a56f9a18d6de/collection/48924287-83f81ad2-d607-40ef-acef-9e61c656a4b4?action=share&source=collection_link&creator=48924287"
+	},
+	"item": [
+		{
+			"name": "Traer todos los zapatos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8000/api/zapatos/"
+			},
+			"response": []
+		},
+		{
+			"name": "Traer un zapato",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://127.0.0.1:8000/api/zapatos/1/"
+			},
+			"response": []
+		},
+		{
+			"name": "guardar",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "    {\r\n        \"Nombre\": \"gucci\",\r\n        \"Modelo\": \"cartera\",\r\n        \"Talla\": \"33\",\r\n        \"Precio\": \"5000.00\",\r\n        \"Fecha_Fabricacion\": \"2039-09-12\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/api/zapatos/"
+			},
+			"response": []
+		},
+		{
+			"name": "Traer todo Copy",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Zapato Nike Air Max\",\r\n  \"description\": \"Actualización del modelo anterior\",\r\n  \"price\": \"400000.00\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://127.0.0.1:8000/api/zapatos/1/"
+			},
+			"response": []
+		},
+		{
+			"name": "Borrar zapatp",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": "http://127.0.0.1:8000/api/zapatos/3/"
+			},
+			"response": []
+		}
+	]
+}
