@@ -6,7 +6,7 @@ class Temporizador(threading.Thread):
         super().__init__()
         self.limite = limite
         self.reset_event = reset_event
-        self.stop_event = stop_event
+        self.stop_event = stop_event       
 
     def run(self):
         i = 0
@@ -32,6 +32,7 @@ class EscuchaReset(threading.Thread):
         self.reset_event = reset_event
 
     def run(self):
+    
         while True:
             input()  
             self.reset_event.set()

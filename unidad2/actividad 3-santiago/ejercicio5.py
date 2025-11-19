@@ -10,7 +10,8 @@ class LogerDaemon(threading.Thread):
         while True:
             print("[LOG] El programa esta en ejecución...")
             time.sleep(self.intervalo)
-            
+            #se dedida esclusivamente a 
+            #siempre va a parte de la ejecucion principal 
 class TrabajoPesado(threading.Thread):
     def __init__(self, pasos):
         super().__init__()
@@ -33,4 +34,5 @@ def main():
     
 if __name__ == "__main__":
     main()
+    
     
