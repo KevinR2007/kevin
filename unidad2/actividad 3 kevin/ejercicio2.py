@@ -28,7 +28,7 @@ class Temporizador(threading.Thread):
             
 class EscuchaReset(threading.Thread):
     def __init__(self, reset_event, ):
-        super().__init__()
+        super().__init__(daemon=True)
         self.reset_event = reset_event
         
     def run(self):

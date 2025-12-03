@@ -1,7 +1,7 @@
 import threading
 import time
 
-
+#loggerdeamon siempre va a ser un hilo aparte 
 class Logger(threading.Thread):
     def __init__(self, intervalo):
         super().__init__(daemon=True)
