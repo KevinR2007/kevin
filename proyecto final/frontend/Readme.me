@@ -1,0 +1,62 @@
+README
+
+Sistema de gestión de herramientas y préstamos desarrollado en Python. Incluye un backend en Django y un frontend de escritorio con Tkinter. El sistema funciona completamente de manera local.
+
+Requisitos
+
+Python 3.10 o superior
+
+pip instalado
+
+1. Crear entorno virtual
+python -m venv venv
+
+2. Activar entorno virtual
+
+Opción 1 (Windows):
+
+venv\Scripts\activate
+
+
+Si no funciona, usar:
+
+Opción 2 (Windows):
+
+.\venv\Scripts\activate
+
+
+Opción 3 (Windows):
+
+python venv\Scripts\activate
+
+
+En Linux o Mac:
+
+source venv/bin/activate
+
+3. Instalar dependencias
+pip install -r requirements.txt
+
+
+Si es necesario, instalar las librerías manualmente:
+
+pip install django
+pip install djangorestframework
+pip install requests
+pip install pillow
+pip install tk
+pip install python-dotenv
+pip install setuptools
+pip install wheel
+
+4. Ejecutar el backend
+
+Entrar a la carpeta del backend y ejecutar:
+
+python manage.py runserver
+
+5. Ejecutar el frontend
+
+Entrar a la carpeta del frontend y ejecutar:
+
+python __main__.py

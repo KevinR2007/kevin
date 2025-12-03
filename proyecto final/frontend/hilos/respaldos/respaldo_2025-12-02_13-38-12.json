@@ -1,0 +1,45 @@
+{
+    "herramientas": [
+        {
+            "id": 10,
+            "codigo": "001",
+            "nombre": "cerrucho",
+            "categoria": "cortar",
+            "ubicacion": "bodega 1",
+            "estado": "disponible",
+            "created_at": "2025-12-02T18:19:08.554643Z",
+            "updated_at": "2025-12-02T18:29:21.506881Z"
+        },
+        {
+            "id": 11,
+            "codigo": "002",
+            "nombre": "taladro",
+            "categoria": "perforar",
+            "ubicacion": "bodega 2",
+            "estado": "disponible",
+            "created_at": "2025-12-02T18:19:42.721057Z",
+            "updated_at": "2025-12-02T18:29:19.818747Z"
+        },
+        {
+            "id": 12,
+            "codigo": "003",
+            "nombre": "martillo",
+            "categoria": "golpear",
+            "ubicacion": "bdega 1",
+            "estado": "disponible",
+            "created_at": "2025-12-02T18:20:26.612643Z",
+            "updated_at": "2025-12-02T18:20:26.613643Z"
+        },
+        {
+            "id": 13,
+            "codigo": "004",
+            "nombre": "tijera",
+            "categoria": "cortar",
+            "ubicacion": "bodega 4",
+            "estado": "dañada",
+            "created_at": "2025-12-02T18:21:07.186371Z",
+            "updated_at": "2025-12-02T18:21:07.186371Z"
+        }
+    ],
+    "prestamos": []
+}

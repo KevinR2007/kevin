@@ -1,0 +1,25 @@
+{
+    "herramientas": [
+        {
+            "id": 6,
+            "codigo": "005",
+            "nombre": "cegueta",
+            "categoria": "cortar",
+            "ubicacion": "medellin",
+            "estado": "disponible",
+            "created_at": "2025-12-02T15:34:03.192574Z",
+            "updated_at": "2025-12-02T15:36:21.704755Z"
+        },
+        {
+            "id": 7,
+            "codigo": "006",
+            "nombre": "sdsd",
+            "categoria": "dsds",
+            "ubicacion": "sdsd",
+            "estado": "disponible",
+            "created_at": "2025-12-02T15:40:57.856305Z",
+            "updated_at": "2025-12-02T15:40:57.856305Z"
+        }
+    ],
+    "prestamos": []
+}
